@@ -1,0 +1,16 @@
+
+
+Part 1: Breadth First Search
+No BFS Table printed
+
+
+Part 2: Most distant vertices from source v0 are: 
+v77  dist=4
+
+
+Part 3: Connectedness
+Graph is connected
+
+
+Part 4: Path from v0 to v99
+v0 v3 v39 v99 
