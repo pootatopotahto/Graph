@@ -7,6 +7,8 @@
 
 #include <iostream>
 #include <string>
+#include <map>
+#include <array>
 
 using namespace std;
 
@@ -17,6 +19,8 @@ class Graph{
 protected:
     int V;
     int E;
+    map <string,array<int,V>> table; 
+
 public:
     Graph		                ( void );   //Default constructor
     Graph		                ( int V, int E); // constructor with 
