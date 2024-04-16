@@ -1,6 +1,7 @@
 #include "Graph.h"
 #include <tuple>
 #include <iomanip>
+#include <algorithm>
 
 std::istream& operator>>(std::istream &is, Graph &gp) {
     int v1, v2, weight;
